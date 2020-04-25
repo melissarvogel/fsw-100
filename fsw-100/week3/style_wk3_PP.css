@@ -1,0 +1,11 @@
+.header {
+    color: blue;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+#td {
+    font-size: 10;
+}
