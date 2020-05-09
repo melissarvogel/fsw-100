@@ -1,0 +1,11 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+html, body {
+  margin: 10px;
+}
+
