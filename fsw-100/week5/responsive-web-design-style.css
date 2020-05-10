@@ -1,0 +1,189 @@
+/*Phone */
+
+@media only screen and (max-width: 460px) {
+
+html, body {
+    margin: 5px;
+    padding: 10px;
+    grid-gap: 5px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 20% 20% auto 20% 20%;
+    grid-gap: 5px;
+}
+
+header {
+    color: white;
+    background-color: gray;
+    grid-column: 1 / 4;
+    border: 1px solid gray;
+    border-radius: 5% 5% 5% 5%;
+}
+
+.Sidebar1 {
+    color: white;
+    background-color: rgb(46, 44, 44);
+    grid-column: 1 / 4;
+    border: 1px solid gray;
+    border-radius: 5% 5% 5% 5%;
+}
+
+main {
+    color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    grid-column: 1 / 4;
+    background-color:  rgb(46, 44, 44);
+    border: 1px solid gray;
+    border-radius: 5% 5% 5% 5%;
+}
+
+.Sidebar2 {
+    background-color: lightgray;
+    color: black;
+    grid-column: 1 / 4;
+    border: 1px solid lightgray;
+    border-radius: 5% 5% 5% 5%;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    grid-column: 1 / 4;
+    border: 1px solid gray;
+    border-radius: 5% 5% 5% 5%; 
+} 
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 768px) {
+
+html, body {
+    margin: 5px;
+    padding: 10px;
+    grid-gap: 5px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 20% 20% auto 20% 20%;
+    grid-gap: 5px;
+    grid-template-areas: 
+    'header'
+    'Sidebar1' 'main'
+    'Sidebar2'
+    'Footer';
+
+}
+
+header {
+    color: white;
+    background-color: gray;
+    grid-column: 1 / 4;
+    border: 1px solid gray;
+    border-radius: 5% 5% 5% 5%;
+}
+
+.Sidebar1 {
+    color: white;
+    background-color: rgb(46, 44, 44);
+    grid-column: 1 / 2;
+    border: 1px solid gray;
+    border-radius: 5% 5% 5% 5%;
+}
+
+main {
+    color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    grid-column: 2 / 4;
+    background-color:  rgb(46, 44, 44);
+    border: 1px solid gray;
+    border-radius: 5% 5% 5% 5%;
+}
+
+.Sidebar2 {
+    background-color: lightgray;
+    color: black;
+    grid-column: 1 / 4;
+    border: 1px solid lightgray;
+    border-radius: 5% 5% 5% 5%;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    grid-column: 1 / 4;
+    border: 1px solid gray;
+    border-radius: 5% 5% 5% 5%; 
+} 
+}
+
+@media only screen and (min-width: 769px) {
+
+html, body {
+    margin: 5px;
+    padding: 10px;
+    grid-gap: 5px;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 20% 20% auto 20% 20%;
+    grid-gap: 5px;
+    grid-template-areas: 
+    'header'
+    'Sidebar1' 'main'
+    'Sidebar2'
+    'Footer';
+
+}
+
+header {
+    color: white;
+    background-color: gray;
+    grid-column: 1 / 4;
+    border: 1px solid gray;
+    border-radius: 5% 5% 5% 5%;
+}
+
+.Sidebar1 {
+    color: white;
+    background-color: rgb(46, 44, 44);
+    grid-column: 1 / 2;
+    border: 1px solid gray;
+    border-radius: 5% 5% 5% 5%;
+}
+
+main {
+    color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    grid-column: 2 / 4;
+    background-color:  rgb(46, 44, 44);
+    border: 1px solid gray;
+    border-radius: 5% 5% 5% 5%;
+}
+
+.Sidebar2 {
+    background-color: lightgray;
+    color: black;
+    grid-column: 3 / 4;
+    border: 1px solid lightgray;
+    border-radius: 5% 5% 5% 5%;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    grid-column: 1 / 4;
+    border: 1px solid gray;
+    border-radius: 5% 5% 5% 5%; 
+} 
+}
