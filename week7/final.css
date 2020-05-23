@@ -1,0 +1,273 @@
+/*Phone */
+
+@media only screen and (max-width: 460px) {
+
+   
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+    
+
+html, body {
+    background-color: palegoldenrod;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+header {
+    color: white;
+    background-color: lightpink;
+    grid-column: 1 / -1;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid beige;
+    font-size: 30px;
+    text-align: center;
+    
+   
+}
+
+nav {
+    background-color: lightblue;
+    color: coral;
+    grid-column: 1 / -1;
+    padding: 5px;
+    display: flex;
+    border: 1px solid beige;
+    align-items: right;
+    justify-content: space-around;
+    flex-direction: row;
+    } 
+
+    a {
+        color: coral;
+    }
+    nav, a:hover {
+        color: blue;
+    }
+
+
+
+main {
+    grid-column: 1 / 4;
+    margin: 15px 15px;
+    text-align: center;
+
+}
+
+img {
+    float: left;
+    padding: 5px;
+}
+
+.postHeader {
+   font-size: 25px;
+   color: hotpink;
+}
+
+.postContent {
+    color: navy;
+    font-family:
+ }
+
+ ul {
+     text-align: left;
+ }
+
+ table {
+    border: 1px solid white;
+    height: auto;
+    width: auto;
+
+ }
+
+footer {
+    background-color: pink;
+    color: white;
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 768px) {
+
+      
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+    
+
+html, body {
+    background-color: palegoldenrod;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+header {
+    color: white;
+    background-color: lightpink;
+    grid-column: 1 / -1;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid beige;
+    font-size: 30px;
+    text-align: center;
+    
+   
+}
+
+nav {
+    background-color: lightblue;
+    color: coral;
+    grid-column: 1 / -1;
+    padding: 5px;
+    display: flex;
+    border: 1px solid beige;
+    align-items: right;
+    justify-content: space-around;
+    flex-direction: row;
+    } 
+
+    a {
+        color: coral;
+    }
+    nav, a:hover {
+        color: blue;
+    }
+
+
+
+main {
+    grid-column: 1 / 4;
+    margin: 15px 15px;
+    text-align: center;
+
+}
+
+img {
+    float: left;
+    padding: 5px;
+}
+
+.postHeader {
+   font-size: 25px;
+   color: hotpink;
+}
+
+.postContent {
+    color: navy;
+    font-family:
+ }
+
+ ul {
+     text-align: left;
+ }
+
+ table {
+    border: 1px solid white;
+    height: auto;
+    width: auto;
+
+ }
+
+footer {
+    background-color: pink;
+    color: white;
+    grid-column: 1 / 4;
+    text-align: center;
+}
+
+@media only screen and (min-width: 769px) {
+
+       
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+    
+
+html, body {
+    background-color: palegoldenrod;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+}
+
+header {
+    color: white;
+    background-color: lightpink;
+    grid-column: 1 / -1;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid beige;
+    font-size: 30px;
+    text-align: center;
+    
+   
+}
+
+nav {
+    background-color: lightblue;
+    color: coral;
+    grid-column: 1 / -1;
+    padding: 5px;
+    display: flex;
+    border: 1px solid beige;
+    align-items: right;
+    justify-content: space-around;
+    flex-direction: row;
+    } 
+
+    a {
+        color: coral;
+    }
+    nav, a:hover {
+        color: blue;
+    }
+
+
+
+main {
+    grid-column: 1 / 4;
+    margin: 15px 15px;
+    text-align: center;
+
+}
+
+img {
+    float: left;
+    padding: 5px;
+}
+
+.postHeader {
+   font-size: 25px;
+   color: hotpink;
+}
+
+.postContent {
+    color: navy;
+    font-family:
+ }
+
+ ul {
+     text-align: left;
+ }
+
+ table {
+    border: 1px solid white;
+    height: auto;
+    width: auto;
+
+ }
+
+footer {
+    background-color: pink;
+    color: white;
+    grid-column: 1 / 4;
+    text-align: center;
+}
